@@ -80,9 +80,3 @@ CI is in `.github/workflows/ci.yml` with the jobs `check`, `audit` and `secrets`
 
 - Build and test in CI only. This covers each `cargo build`, `cargo test` and `cargo clippy`.
 - Allowed on the laptop of the owner: editing and `cargo fmt`.
-
-## Open points
-
-Do not make this decision silently. Ask the owner.
-
-- The licence of the repository
