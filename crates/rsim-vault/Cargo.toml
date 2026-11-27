@@ -1,0 +1,10 @@
+[package]
+name = "rsim-vault"
+description = "The API and the portal of rsim-vault"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[lints]
+workspace = true

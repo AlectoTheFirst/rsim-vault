@@ -1,0 +1,10 @@
+[package]
+name = "rsim-vault-store"
+description = "The encrypted bundles of rsim-vault and their keys"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[lints]
+workspace = true

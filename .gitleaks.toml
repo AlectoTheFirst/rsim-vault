@@ -1,0 +1,6 @@
+# Gitleaks config for the `secrets` job of ci.yml and for a local `gitleaks git`.
+# It extends the default rule set.
+# ci.yml pins the gitleaks version (GITLEAKS_VERSION).
+
+[extend]
+useDefault = true

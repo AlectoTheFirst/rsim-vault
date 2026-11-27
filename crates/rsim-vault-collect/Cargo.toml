@@ -1,0 +1,10 @@
+[package]
+name = "rsim-vault-collect"
+description = "The collector of rsim-vault. It runs the catalog commands on the devices and writes the bundles."
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[lints]
+workspace = true

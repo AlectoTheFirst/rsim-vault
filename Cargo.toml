@@ -1,0 +1,25 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/rsim-vault-store",
+    "crates/rsim-vault-inventory",
+    "crates/rsim-vault-collect",
+    "crates/rsim-vault",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.99"
+repository = "https://github.com/AlectoTheFirst/rsim-vault"
+
+[workspace.dependencies]
+rsim-vault-store = { path = "crates/rsim-vault-store" }
+rsim-vault-inventory = { path = "crates/rsim-vault-inventory" }
+rsim-vault-collect = { path = "crates/rsim-vault-collect" }
+
+[workspace.lints.rust]
+unsafe_code = "deny"
+
+[workspace.lints.clippy]
+all = { level = "warn", priority = -1 }

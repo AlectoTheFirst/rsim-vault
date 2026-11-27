@@ -1,0 +1,10 @@
+# Local tool state
+/.claude/*
+!/.claude/rules/
+
+# Rust build output
+/target/
+.DS_Store
+
+# Local secrets
+/.env

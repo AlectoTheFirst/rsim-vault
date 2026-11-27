@@ -1,0 +1,10 @@
+[package]
+name = "rsim-vault-inventory"
+description = "The management data of rsim-vault: the devices, the credentials, the users and the command catalog"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[lints]
+workspace = true
